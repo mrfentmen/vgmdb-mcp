@@ -1,0 +1,42 @@
+{
+  "name": "vgmdb-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for video game music — search game OST albums, composers, and full tracklists (iTunes Catalog backend).",
+  "type": "module",
+  "mcpName": "io.github.mrfentmen/vgmdb-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrfentmen/vgmdb-mcp.git"
+  },
+  "bin": {
+    "vgmdb-mcp": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "rm -rf dist && tsc -p tsconfig.json && node dist/index.js",
+    "inspect": "npx @modelcontextprotocol/inspector node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "vgmdb",
+    "vgm",
+    "video-game-music",
+    "ost",
+    "soundtrack",
+    "chips"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}

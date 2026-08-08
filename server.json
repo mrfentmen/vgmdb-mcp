@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mrfentmen/vgmdb-mcp",
+  "description": "Search the VGMdb video game music database: albums, composers, and tracklists for game OSTs.",
+  "repository": {
+    "url": "https://github.com/mrfentmen/vgmdb-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "vgmdb-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
