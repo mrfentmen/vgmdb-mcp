@@ -1,7 +1,7 @@
 {
   "name": "vgmdb-mcp",
   "version": "1.0.0",
-  "description": "MCP server for video game music — search game OST albums, composers, and full tracklists (iTunes Catalog backend).",
+  "description": "MCP server for video game music, search game OST albums, composers, and full tracklists (iTunes Catalog backend).",
   "type": "module",
   "mcpName": "io.github.mrfentmen/vgmdb-mcp",
   "repository": {
